@@ -1,0 +1,47 @@
+=== SUITE COMPLETA DE TESTES ADICIONAIS - EP2 ===
+
+1. Testes de Construtores e NULL Pointers em Funcoes Principais
+OK  - novoCurso() inicializado com sucesso.
+OK  - adicionarAlunoAoCurso protege contra NULL pointers.
+OK  - adicionarTurmaAoCurso protege contra NULL pointers.
+OK  - matricularAlunoEmTurma protege contra NULL pointers.
+OK  - cadastrarNota protege contra aluno NULL.
+OK  - retornarModaDasNotasDeAluno protege contra aluno NULL.
+
+2. Testes de Adicao ao Curso e Duplicidade
+OK  - Aluno 1 adicionado ao curso com sucesso.
+OK  - Aluno duplicado no curso rejeitado corretamente.
+OK  - Aluno 2 adicionado ao curso com sucesso.
+OK  - Turmas t1 e t2 adicionadas ao curso com sucesso.
+OK  - Turma duplicada no curso rejeitada corretamente.
+
+3. Testes de Lotacao e Aluno Duplicado em Turma
+OK  - Aluno 1 matriculado na turma pequena com sucesso.
+OK  - Matricula em turma cheia rejeitada corretamente.
+OK  - Aluno duplicado na mesma turma rejeitado corretamente.
+
+4. Testes de Notas e Frequencias Invalidas
+OK  - Nota negativa rejeitada.
+OK  - Nota > 100 rejeitada.
+OK  - Frequencia negativa rejeitada.
+OK  - Frequencia > 100 rejeitada.
+OK  - Nota em disciplina nao matriculada rejeitada.
+OK  - Nota valida cadastrada com sucesso.
+
+5. Testes de Conflito de Horario
+OK  - Primeira matricula de horario aceita.
+OK  - Conflito de horario (mesmo dia e periodo) rejeitado corretamente.
+
+6. Testes de Jubilamento e Formatura
+OK  - Aluno jubilado corretamente apos 14 reprovacoes (Status 'J').
+OK  - Matricula de aluno jubilado bloqueada com sucesso.
+
+7. Testes de Limite Maximo de Turmas (MAX_TURMAS = 18)
+OK  - Exatamente 18 matriculas permitidas (teto MAX_TURMAS).
+OK  - Tentativa de 19a matricula rejeitada corretamente.
+
+8. Testes de Moda com Empate de Frequencia (Maior Nota Vence)
+OK  - Desempate da moda funcionou corretamente (Maior nota 9 venceu).
+OK  - Aluno sem disciplinas concluidas retorna -1 na moda.
+
+=== FIM DOS TESTES EXAUSTIVOS ===
